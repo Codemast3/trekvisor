@@ -34,39 +34,4 @@ body {
     color: #333;
     text-shadow: none;
 }
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-/* Full-page hero section */
-.hero-section {
-    height: 100vh;
-    background-image: url('https://res.cloudinary.com/dqtrikkhp/image/upload/v1737576357/Campground/p0y2enujeclugbg8x6nl.jpg'); /* Replace with your image path */
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    color: white;
-}
-
-/* Logo style */
-.logo {
-    font-size: 10rem; /* Adjust the size as needed */
-    font-family: 'Arial', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.5); /* Dark background to help blend with the image */
-    padding: 20px;
-    border-radius: 10px;
-    backdrop-filter: blur(5px); /* Optional: adds blur effect behind the text */
-}
-
-/* Adding text shadow for better blending with background */
-.logo {
-    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
-}
